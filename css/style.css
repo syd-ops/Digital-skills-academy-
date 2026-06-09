@@ -11,30 +11,32 @@ body{
     color:#333;
 }
 
-header {
-    background: #0f172a;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 8%;
+header{
+    background:#0f172a;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .logo img {
-    height: 38px;
+    height: 45px;
     width: auto;
+    display: block;
     object-fit: contain;
 }
 
 .logo span {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 700;
+    color: white;
 }
 nav ul{
     display:flex;
