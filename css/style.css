@@ -120,6 +120,8 @@ main{
 
 .about-images img{
     width:48%;
+    height:300px;
+    object-fit:cover;
     border-radius:10px;
 }
 
